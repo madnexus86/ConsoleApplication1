@@ -3,9 +3,41 @@
 
 #include <iostream>
 
+// HelloWorld.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+//
+/*
+* 123
+*132
+*123123
+123123132
+123123
+123123
+*/
+//comment new 
+#include <iostream>
+
+//вызывает функцию cout
+void print()
+{
+    std::cout << "Hello Skillbox!!!!!\n";
+}
+
+/*
+присваиваем значения переменным и печатаем Hello world
+*/
 int main()
 {
-    std::cout << "Hello World12313прпрп!\n";
+    int x = 100;
+    int y = x + 100;
+    int mult = x * y;
+    int b = 0;
+    b = b + 2;
+    int test;
+    test = 100500;
+    int test2 = 1005001;
+
+    std::cout << "Hello Brave New World!!!!!\n";
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
